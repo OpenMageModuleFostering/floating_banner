@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Stasevi4_Banner>
+		  <version>0.1.6</version>
+		</Stasevi4_Banner>
+    </modules>
+	<global>
+		<models>
+			<Stasevi4_Banner>
+				<class>Stasevi4_Banner_Adminhtml_Model</class>
+			</Stasevi4_Banner>
+		</models>
+		<helpers>
+			<stasevi4_banner>
+				<class>Stasevi4_Banner_Helper</class>
+			</stasevi4_banner>
+		</helpers>
+	</global>
+	<frontend>
+	   <layout>
+            <updates>
+                <stasevi4_banner>
+                    <file>stasevi4-banner.xml</file>
+                </stasevi4_banner>
+            </updates>
+        </layout>
+	</frontend>
+</config>

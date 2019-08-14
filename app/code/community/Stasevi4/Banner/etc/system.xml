@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<tabs>
+		<sbanner translate="label" module="stasevi4_banner">
+			<label>Stasevi4 Moduls</label>
+			<sort_order>1005</sort_order>
+		</sbanner>
+	</tabs>
+	
+	<sections>
+		<stasevi4_banner translate="label" module="stasevi4_banner">
+			<label>Banner Configuration</label>
+			<tab>sbanner</tab>
+			<sort_order>150</sort_order>
+			<show_in_default>1</show_in_default>
+			<show_in_website>1</show_in_website>
+			<show_in_store>1</show_in_store>
+			<groups>
+				<general translate="label" module="stasevi4_banner">
+					<label>General Configuration</label>
+					<sort_order>10</sort_order>
+					<show_in_default>1</show_in_default>
+					<fields>
+						<sbenable translate="label">
+							<label>Enable Stasevi4 Banner</label>
+							<frontend_type>select</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+							<sort_order>10</sort_order>
+							<show_in_default>1</show_in_default>
+						</sbenable>
+						<bfloat translate="label">
+							<label>Banner Float</label>
+							<frontend_type>select</frontend_type>
+							<source_model>Stasevi4_Banner/system_config_source_leftright</source_model>
+							<sort_order>20</sort_order>
+							<show_in_default>1</show_in_default>
+						</bfloat>
+						<blinktarget translate="label">
+                            <label>Link Target</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Stasevi4_Banner/system_config_source_linktype</source_model>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>                   
+                        </blinktarget>
+					</fields>
+				</general>		
+				<images translate="label" module="stasevi4_banner">
+					<label>Banners</label>
+					<sort_order>20</sort_order>
+					<show_in_default>1</show_in_default>
+					<fields>
+						 <image1_link translate="lable" module="stasevi4_banner">
+                            <label>Image Number 1 link</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+							<!--depends>
+                                <general_enabled>1</general_enabled>
+                            </depends-->
+                        </image1_link>
+						<image1 translate="label comment">
+							<label>Image Number 1</label>
+							<comment>Allowed file types: jpeg, gif, png.</comment>
+							<frontend_type>image</frontend_type>
+							<backend_model>adminhtml/system_config_backend_image</backend_model>
+							<upload_dir config="system/filesystem/media" scope_info="1">stasevi4</upload_dir>
+							<base_url type="media" scope_info="1">stasevi4</base_url>
+							<sort_order>3</sort_order>
+							<show_in_default>1</show_in_default>
+						</image1>
+                       <image2_link translate="lable" module="stasevi4_banner">
+                            <label>Image Number 2 link</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>4</sort_order>
+                            <show_in_default>1</show_in_default>					
+                        </image2_link>
+						<image2 translate="label comment">
+							<label>Image Number 2</label>
+							<comment>Allowed file types: jpeg, gif, png.</comment>
+							<frontend_type>image</frontend_type>
+							<backend_model>adminhtml/system_config_backend_image</backend_model>
+							<upload_dir config="system/filesystem/media" scope_info="1">stasevi4</upload_dir>
+							<base_url type="media" scope_info="1">stasevi4</base_url>
+							<sort_order>5</sort_order>
+							<show_in_default>1</show_in_default>						
+						</image2>
+						<image3_link translate="lable" module="stasevi4_banner">
+                            <label>Image Number 3 link</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>6</sort_order>
+                            <show_in_default>1</show_in_default>						
+                        </image3_link>
+						<image3 translate="label comment">
+							<label>Image Number 3</label>
+							<comment>Allowed file types: jpeg, gif, png.</comment>
+							<frontend_type>image</frontend_type>
+							<backend_model>adminhtml/system_config_backend_image</backend_model>
+							<upload_dir config="system/filesystem/media" scope_info="1">stasevi4</upload_dir>
+							<base_url type="media" scope_info="1">stasevi4</base_url>
+							<sort_order>7</sort_order>
+							<show_in_default>1</show_in_default>						
+						</image3>
+						<image4_link translate="lable" module="stasevi4_banner">
+                            <label>Image Number 4 link</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>8</sort_order>
+                            <show_in_default>1</show_in_default>
+                        </image4_link>
+						<image4 translate="label comment">
+							<label>Image Number 4</label>
+							<comment>Allowed file types: jpeg, gif, png.</comment>
+							<frontend_type>image</frontend_type>
+							<backend_model>adminhtml/system_config_backend_image</backend_model>
+							<upload_dir config="system/filesystem/media" scope_info="1">stasevi4</upload_dir>
+							<base_url type="media" scope_info="1">stasevi4</base_url>
+							<sort_order>9</sort_order>
+							<show_in_default>1</show_in_default>
+						</image4>
+						<image5_link translate="lable" module="stasevi4_banner">
+                            <label>Image Number 5 link</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                        </image5_link>
+						<image5 translate="label comment">
+							<label>Image Number 5</label>
+							<comment>Allowed file types: jpeg, gif, png.</comment>
+							<frontend_type>image</frontend_type>
+							<backend_model>adminhtml/system_config_backend_image</backend_model>
+							<upload_dir config="system/filesystem/media" scope_info="1">stasevi4</upload_dir>
+							<base_url type="media" scope_info="1">stasevi4</base_url>
+							<sort_order>11</sort_order>
+							<show_in_default>1</show_in_default>
+						</image5>
+						<image6_link translate="lable" module="stasevi4_banner">
+                            <label>Image Number 6 link</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>12</sort_order>
+                            <show_in_default>1</show_in_default>
+                        </image6_link>
+						<image6 translate="label comment">
+							<label>Image Number 6</label>
+							<comment>Allowed file types: jpeg, gif, png.</comment>
+							<frontend_type>image</frontend_type>
+							<backend_model>adminhtml/system_config_backend_image</backend_model>
+							<upload_dir config="system/filesystem/media" scope_info="1">stasevi4</upload_dir>
+							<base_url type="media" scope_info="1">stasevi4</base_url>
+							<sort_order>13</sort_order>
+							<show_in_default>1</show_in_default>
+						</image6>
+						
+						<image7_link translate="lable" module="stasevi4_banner">
+                            <label>Image Number 7 link</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>14</sort_order>
+                            <show_in_default>1</show_in_default>
+                        </image7_link>
+						<image7 translate="label comment">
+							<label>Image Number 7</label>
+							<comment>Allowed file types: jpeg, gif, png.</comment>
+							<frontend_type>image</frontend_type>
+							<backend_model>adminhtml/system_config_backend_image</backend_model>
+							<upload_dir config="system/filesystem/media" scope_info="1">stasevi4</upload_dir>
+							<base_url type="media" scope_info="1">stasevi4</base_url>
+							<sort_order>15</sort_order>
+							<show_in_default>1</show_in_default>
+						</image7>
+						
+						<image8_link translate="lable" module="stasevi4_banner">
+                            <label>Image Number 8 link</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>16</sort_order>
+                            <show_in_default>1</show_in_default>
+                        </image8_link>
+						<image8 translate="label comment">
+							<label>Image Number 8</label>
+							<comment>Allowed file types: jpeg, gif, png.</comment>
+							<frontend_type>image</frontend_type>
+							<backend_model>adminhtml/system_config_backend_image</backend_model>
+							<upload_dir config="system/filesystem/media" scope_info="1">stasevi4</upload_dir>
+							<base_url type="media" scope_info="1">stasevi4</base_url>
+							<sort_order>17</sort_order>
+							<show_in_default>1</show_in_default>
+
+						</image8>
+						
+                    </fields>
+				</images>
+			
+			</groups>
+		</stasevi4_banner>
+	</sections>
+</config>

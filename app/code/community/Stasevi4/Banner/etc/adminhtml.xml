@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>	
+	<acl>
+		<resources>
+			<admin>	
+				<children>
+					<system>
+						<children>
+							<config>
+								<children>
+									<stasevi4_banner translate="title" module="stasevic_banner">
+										<title>Configuration Stasevi4 Banner Section</title>
+									</stasevi4_banner>
+								</children>
+							</config>
+						</children>
+					</system>
+				</children>
+			</admin>
+		</resources>
+	</acl>
+</config>
