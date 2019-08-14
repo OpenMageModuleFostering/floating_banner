@@ -1,0 +1,20 @@
+.floatmenu
+{ position:fixed;
+  bottom:40%;
+  index-z:100;
+}
+
+.floatmenu a {display:block;}
+.fleft{left:5px;}
+.fright{ right:5px;}
+.floatmenu ul{
+  list-style-type:none; 
+}
+
+.floatmenu ul li{
+    padding:5px;
+ 
+    margin-top:2px;
+    background-color: #ffffff;
+    border:1px solid #dddddd;
+}

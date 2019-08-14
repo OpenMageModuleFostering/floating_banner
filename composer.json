@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Floating_banner",
+    "type": "magento-module",
+    "license": "OSL",
+    "homepage": "",
+    "description": "Floating banner ",
+    "authors": [
+    {
+        "name": "Stanislav",
+        "email": "stas19882004@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

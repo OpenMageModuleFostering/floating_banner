@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Stasevic_Banner>
+		  <version>0.1.0</version>
+		</Stasevic_Banner>
+    </modules>
+	
+	<global>
+		<models>
+			<Stasevic_Banner>
+				<class>Stasevic_Banner_Adminhtml_Model</class>
+			</Stasevic_Banner>
+		</models>
+		<helpers>
+			<stasevic_banner>
+				<class>Stasevic_Banner_Helper</class>
+			</stasevic_banner>
+		</helpers>
+	</global>
+	<frontend>
+	   <layout>
+            <updates>
+                <stasevic_banner>
+                    <file>stasevic-banner.xml</file>
+                </stasevic_banner>
+            </updates>
+        </layout>
+	</frontend>
+</config>
