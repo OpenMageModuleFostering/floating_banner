@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>Floating_banner</name>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
     <channel>community</channel>
     <extends/>
     <summary>Floating banner </summary>
     <description>Floating Banner is  simply keeps elements in the browsers viewport when a user scrolls down a web page. It is often used to keep banners in the user's view while the scrolling down long pages.</description>
-    <notes>Floating Banner V 0.1.0</notes>
+    <notes>Floating Banner V 0.1.1</notes>
     <authors><author><name>Stanislav</name><user>Stasevi4</user><email>stas19882004@gmail.com</email></author></authors>
-    <date>2013-03-11</date>
-    <time>18:28:01</time>
-    <contents><target name="magecommunity"><dir name="Stasevic"><dir name="Banner"><dir name="Adminhtml"><dir name="Model"><dir name="System"><dir name="Config"><dir name="Source"><file name="Leftright.php" hash="65103739767437a531eece3c9c2bdebe"/></dir></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="3f36e81c19ede19ab7f6533587e6d351"/></dir><dir name="etc"><file name="adminhtml.xml" hash="d80445709651d1d4a291cec51a666291"/><file name="config.xml" hash="0f6b3ad139d9640cd5d4edef43093924"/><file name="system.xml" hash="c1b6247983aa3a5f50c0a097056a9215"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="stasevi4_banner.xml" hash=""/></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="stasevic_banner.xml" hash=""/></dir><dir name="template"><dir name="Stasevic"><file name="floatbanner.phtml" hash="a1377ba914d71f2cd199d23e2344d376"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="default"><dir name="default"><dir name="css"><file name="stasevic-banner.css" hash="d70de05ff087786d7023cad3a1955027"/></dir></dir></dir></dir></target></contents>
+    <date>2013-03-13</date>
+    <time>15:17:16</time>
+    <contents><target name="magecommunity"><dir name="Stasevic"><dir name="Banner"><dir name="Adminhtml"><dir name="Model"><dir name="System"><dir name="Config"><dir name="Source"><file name="Leftright.php" hash="65103739767437a531eece3c9c2bdebe"/><file name="Linktype.php" hash="4f110bbf22a8a4cdccc5da9b3d35e298"/></dir></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="3f36e81c19ede19ab7f6533587e6d351"/></dir><dir name="etc"><file name="adminhtml.xml" hash="d80445709651d1d4a291cec51a666291"/><file name="config.xml" hash="fd4ade14672b0b6366fcff8ba8c0c97d"/><file name="system.xml" hash="95a970bfa8a1f523f3c0b3de32bc48ac"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="stasevi4_banner.xml" hash=""/></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="stasevic_banner.xml" hash=""/></dir><dir name="template"><dir name="Stasevic"><file name="floatbanner.phtml" hash="7218071e95d9b7cf8866d00a47b86518"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="default"><dir name="default"><dir name="css"><file name="stasevic-banner.css" hash="d70de05ff087786d7023cad3a1955027"/></dir></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.0.0</min><max>6.0.0</max></php></required></dependencies>
 </package>

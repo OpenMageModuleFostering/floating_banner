@@ -1,8 +1,3 @@
-<pre>
-<?php //print_r(Mage::getConfig('Stasevic_banner')); ?>
-</pre>
-
-
 <?php if(Mage::getStoreConfig('stasevic_banner/general/enabled') == true){?>
 	<?php $arr = Mage::getStoreConfig('stasevic_banner/images');?>
 	<div class="floatmenu <?php echo  Mage::getStoreConfig('stasevic_banner/general/bfloat') == 'left' ? 'fleft' : 'fright'; ?>">		
@@ -10,7 +5,7 @@
 			<?php for($i=1; $i<count($arr); $i++){?>				
 			    <?php if(array_key_exists('image'. $i, $arr) && $arr['image'. $i] <> '' ){?>
 						<?php if(array_key_exists('image'. $i .'_link', $arr) && $arr['image'. $i .'_link'] <> '' ){?>
-							<li><a href="<?php echo $arr['image'. $i .'_link'];?>"><img src='<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA).'stasevic/'.$arr['image'. $i ]  ; ?>'/></a></li> 	 						
+							<li><a href="<?php echo $arr['image'. $i .'_link'];?>" target="<?php echo  Mage::getStoreConfig('stasevic_banner/general/blinktarget')?>"><img src='<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA).'stasevic/'.$arr['image'. $i ]  ; ?>'/></a></li> 	 						
 						<?php }else{?>
 							<li><img src='<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA).'stasevic/'.$arr['image'. $i ]  ; ?>'/></li> 				
 						<?php }?>
@@ -18,4 +13,4 @@
 			<?php }?>	
 		</ul>
 	</div>
-<?php } ?>
+<?php }?>
