@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Floating_banner",
+    "name": "openmage-module-fostering\/floating_banner",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Floating banner ",
     "authors": [
